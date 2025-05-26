@@ -1,0 +1,89 @@
+
+/*ΑΥΤΌ ΕΊΝΑΙ ΈΝΑ ΣΧΟΛΙΟ*/
+* {
+    box-sizing: content-box;
+  }
+  
+  body {
+    background-color: #0a0633
+  }
+  
+  h1 {
+    margin: 100px auto 50px;
+    text-align: center;
+    font-family:  "Winky Sans";
+    font-size: 55px;
+    color: white;
+  }
+  
+  p, label, button {
+    font-family: Gidole;
+  }
+  
+  .outer-container {
+    width: 400px;
+    margin: auto;
+  }
+  
+  .outer-container.checker {
+    width: 380px;
+    padding: 30px 20px;
+    background-color: white;
+    border-radius: 10px;
+    
+  }
+  
+  .explanation-text p {
+    text-align: center;
+    font-size: 19px;
+    color: white;
+    
+  }
+  
+  .checker {
+    margin-top: 60px;
+    box-shadow: 0px 5px 10px lightblue;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  legend {
+    margin-bottom: 3px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  input {
+    margin: 25px 15px 10px 50px;
+    border: none;
+    border-bottom: 1px solid blue;
+  }
+  
+  button {
+    padding: 7px 14px;
+    font-size: 15px;
+    background-color: lightblue;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-family: "Winky Sans"
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  p#result.hidden {
+    display: none;
+  }
+  
+  p#result.visible {
+    display: block;
+    padding: 10px 20px;
+    margin: 25px auto 0px;
+    background-color: #fcfc03;
+    border: 1px #0a0633;
+    border-radius: 7px;
+    font-size: 16px;
+  }

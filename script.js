@@ -12,17 +12,15 @@ const clearInput = () => {
 function isPalindrome(input) {
   const length = input.length;
   const lastChar = length - 1;
-  const inputArray = [...input]; 
-  let isItPalindrome;
+  const inputArray = [...input];
 
   for (let i = 0; i < length; i++) {
-    if (inputArray[i] === inputArray[lastChar - i]) {
-      isItPalindrome = true;
-    } else {
+    if (inputArray[i] !== inputArray[lastChar - i]) {
       return false;
     }
+
+    return true;
   }
-  return isItPalindrome;
 }
 
  //Output result
